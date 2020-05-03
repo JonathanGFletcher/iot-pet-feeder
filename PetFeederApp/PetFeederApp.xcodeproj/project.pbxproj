@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB54B618245A5F320025773E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54B617245A5F320025773E /* LoginController.swift */; };
+		FB54B61A245A751F0025773E /* MainFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54B619245A751F0025773E /* MainFunctions.swift */; };
+		FB54B61C245B8BFC0025773E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54B61B245B8BFC0025773E /* User.swift */; };
+		FB54B61E245B8C830025773E /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54B61D245B8C830025773E /* Role.swift */; };
+		FB54B620245B8F5F0025773E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54B61F245B8F5F0025773E /* Color.swift */; };
+		FB54B622245B90C80025773E /* FeederCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54B621245B90C80025773E /* FeederCell.swift */; };
+		FB5832A4245BE1160030EF0D /* FeederViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5832A3245BE1160030EF0D /* FeederViewController.swift */; };
+		FB5832A6245BE18C0030EF0D /* FeedTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5832A5245BE18C0030EF0D /* FeedTimeCell.swift */; };
+		FB91236A245A3B1E00E6AB1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB912369245A3B1E00E6AB1F /* AppDelegate.swift */; };
+		FB91236C245A3B1E00E6AB1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91236B245A3B1E00E6AB1F /* SceneDelegate.swift */; };
+		FB91236E245A3B1E00E6AB1F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91236D245A3B1E00E6AB1F /* MainViewController.swift */; };
+		FB912373245A3B1F00E6AB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB912372245A3B1F00E6AB1F /* Assets.xcassets */; };
+		FB912376245A3B1F00E6AB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB912374245A3B1F00E6AB1F /* LaunchScreen.storyboard */; };
+		FB912381245A3B1F00E6AB1F /* PetFeederAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB912380245A3B1F00E6AB1F /* PetFeederAppTests.swift */; };
+		FB91238C245A3B1F00E6AB1F /* PetFeederAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91238B245A3B1F00E6AB1F /* PetFeederAppUITests.swift */; };
+		FB91239A245A3DDE00E6AB1F /* Feeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB912399245A3DDE00E6AB1F /* Feeder.swift */; };
+		FBD43719245E160E000C42F8 /* AddFeedTimePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD43718245E160E000C42F8 /* AddFeedTimePopup.swift */; };
+		FBD4371B245E1617000C42F8 /* EditFeedTimePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4371A245E1617000C42F8 /* EditFeedTimePopup.swift */; };
+		FBD4371D245E23A4000C42F8 /* FeederFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4371C245E23A4000C42F8 /* FeederFunctions.swift */; };
+		FBD4371F245E6C29000C42F8 /* TimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4371E245E6C29000C42F8 /* TimeFunctions.swift */; };
+		FBD63E92245CCB29005D49E6 /* AddFeederPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD63E91245CCB29005D49E6 /* AddFeederPopup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB91237D245A3B1F00E6AB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB91235E245A3B1E00E6AB1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB912365245A3B1E00E6AB1F;
+			remoteInfo = PetFeederApp;
+		};
+		FB912388245A3B1F00E6AB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB91235E245A3B1E00E6AB1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB912365245A3B1E00E6AB1F;
+			remoteInfo = PetFeederApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB54B617245A5F320025773E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		FB54B619245A751F0025773E /* MainFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFunctions.swift; sourceTree = "<group>"; };
+		FB54B61B245B8BFC0025773E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FB54B61D245B8C830025773E /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		FB54B61F245B8F5F0025773E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FB54B621245B90C80025773E /* FeederCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeederCell.swift; sourceTree = "<group>"; };
+		FB5832A3245BE1160030EF0D /* FeederViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeederViewController.swift; sourceTree = "<group>"; };
+		FB5832A5245BE18C0030EF0D /* FeedTimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTimeCell.swift; sourceTree = "<group>"; };
+		FB912366245A3B1E00E6AB1F /* PetFeederApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFeederApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB912369245A3B1E00E6AB1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB91236B245A3B1E00E6AB1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB91236D245A3B1E00E6AB1F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB912372245A3B1F00E6AB1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB912375245A3B1F00E6AB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB912377245A3B1F00E6AB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB91237C245A3B1F00E6AB1F /* PetFeederAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetFeederAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB912380245A3B1F00E6AB1F /* PetFeederAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFeederAppTests.swift; sourceTree = "<group>"; };
+		FB912382245A3B1F00E6AB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB912387245A3B1F00E6AB1F /* PetFeederAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetFeederAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB91238B245A3B1F00E6AB1F /* PetFeederAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFeederAppUITests.swift; sourceTree = "<group>"; };
+		FB91238D245A3B1F00E6AB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB912399245A3DDE00E6AB1F /* Feeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feeder.swift; sourceTree = "<group>"; };
+		FBD43718245E160E000C42F8 /* AddFeedTimePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedTimePopup.swift; sourceTree = "<group>"; };
+		FBD4371A245E1617000C42F8 /* EditFeedTimePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFeedTimePopup.swift; sourceTree = "<group>"; };
+		FBD4371C245E23A4000C42F8 /* FeederFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeederFunctions.swift; sourceTree = "<group>"; };
+		FBD4371E245E6C29000C42F8 /* TimeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFunctions.swift; sourceTree = "<group>"; };
+		FBD63E91245CCB29005D49E6 /* AddFeederPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeederPopup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB912363245A3B1E00E6AB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB912379245A3B1F00E6AB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB912384245A3B1F00E6AB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB91235D245A3B1E00E6AB1F = {
+			isa = PBXGroup;
+			children = (
+				FB912368245A3B1E00E6AB1F /* PetFeederApp */,
+				FB91237F245A3B1F00E6AB1F /* PetFeederAppTests */,
+				FB91238A245A3B1F00E6AB1F /* PetFeederAppUITests */,
+				FB912367245A3B1E00E6AB1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB912367245A3B1E00E6AB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB912366245A3B1E00E6AB1F /* PetFeederApp.app */,
+				FB91237C245A3B1F00E6AB1F /* PetFeederAppTests.xctest */,
+				FB912387245A3B1F00E6AB1F /* PetFeederAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB912368245A3B1E00E6AB1F /* PetFeederApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB912369245A3B1E00E6AB1F /* AppDelegate.swift */,
+				FB91236B245A3B1E00E6AB1F /* SceneDelegate.swift */,
+				FB91239D245A3DED00E6AB1F /* Model */,
+				FB91239C245A3DE900E6AB1F /* View */,
+				FB91239B245A3DE200E6AB1F /* Controller */,
+				FB912372245A3B1F00E6AB1F /* Assets.xcassets */,
+				FB912374245A3B1F00E6AB1F /* LaunchScreen.storyboard */,
+				FB912377245A3B1F00E6AB1F /* Info.plist */,
+			);
+			path = PetFeederApp;
+			sourceTree = "<group>";
+		};
+		FB91237F245A3B1F00E6AB1F /* PetFeederAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB912380245A3B1F00E6AB1F /* PetFeederAppTests.swift */,
+				FB912382245A3B1F00E6AB1F /* Info.plist */,
+			);
+			path = PetFeederAppTests;
+			sourceTree = "<group>";
+		};
+		FB91238A245A3B1F00E6AB1F /* PetFeederAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB91238B245A3B1F00E6AB1F /* PetFeederAppUITests.swift */,
+				FB91238D245A3B1F00E6AB1F /* Info.plist */,
+			);
+			path = PetFeederAppUITests;
+			sourceTree = "<group>";
+		};
+		FB91239B245A3DE200E6AB1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB54B617245A5F320025773E /* LoginController.swift */,
+				FB91236D245A3B1E00E6AB1F /* MainViewController.swift */,
+				FB54B619245A751F0025773E /* MainFunctions.swift */,
+				FB5832A3245BE1160030EF0D /* FeederViewController.swift */,
+				FBD4371C245E23A4000C42F8 /* FeederFunctions.swift */,
+				FBD4371E245E6C29000C42F8 /* TimeFunctions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB91239C245A3DE900E6AB1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB54B61F245B8F5F0025773E /* Color.swift */,
+				FB54B621245B90C80025773E /* FeederCell.swift */,
+				FB5832A5245BE18C0030EF0D /* FeedTimeCell.swift */,
+				FBD63E90245CCB1E005D49E6 /* Popups */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB91239D245A3DED00E6AB1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB54B61B245B8BFC0025773E /* User.swift */,
+				FB912399245A3DDE00E6AB1F /* Feeder.swift */,
+				FB54B61D245B8C830025773E /* Role.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBD63E90245CCB1E005D49E6 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				FBD63E91245CCB29005D49E6 /* AddFeederPopup.swift */,
+				FBD43718245E160E000C42F8 /* AddFeedTimePopup.swift */,
+				FBD4371A245E1617000C42F8 /* EditFeedTimePopup.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB912365245A3B1E00E6AB1F /* PetFeederApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB912390245A3B1F00E6AB1F /* Build configuration list for PBXNativeTarget "PetFeederApp" */;
+			buildPhases = (
+				FB912362245A3B1E00E6AB1F /* Sources */,
+				FB912363245A3B1E00E6AB1F /* Frameworks */,
+				FB912364245A3B1E00E6AB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetFeederApp;
+			productName = PetFeederApp;
+			productReference = FB912366245A3B1E00E6AB1F /* PetFeederApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB91237B245A3B1F00E6AB1F /* PetFeederAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB912393245A3B1F00E6AB1F /* Build configuration list for PBXNativeTarget "PetFeederAppTests" */;
+			buildPhases = (
+				FB912378245A3B1F00E6AB1F /* Sources */,
+				FB912379245A3B1F00E6AB1F /* Frameworks */,
+				FB91237A245A3B1F00E6AB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB91237E245A3B1F00E6AB1F /* PBXTargetDependency */,
+			);
+			name = PetFeederAppTests;
+			productName = PetFeederAppTests;
+			productReference = FB91237C245A3B1F00E6AB1F /* PetFeederAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB912386245A3B1F00E6AB1F /* PetFeederAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB912396245A3B1F00E6AB1F /* Build configuration list for PBXNativeTarget "PetFeederAppUITests" */;
+			buildPhases = (
+				FB912383245A3B1F00E6AB1F /* Sources */,
+				FB912384245A3B1F00E6AB1F /* Frameworks */,
+				FB912385245A3B1F00E6AB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB912389245A3B1F00E6AB1F /* PBXTargetDependency */,
+			);
+			name = PetFeederAppUITests;
+			productName = PetFeederAppUITests;
+			productReference = FB912387245A3B1F00E6AB1F /* PetFeederAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB91235E245A3B1E00E6AB1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Jonathan Fletcher";
+				TargetAttributes = {
+					FB912365245A3B1E00E6AB1F = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					FB91237B245A3B1F00E6AB1F = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FB912365245A3B1E00E6AB1F;
+					};
+					FB912386245A3B1F00E6AB1F = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FB912365245A3B1E00E6AB1F;
+					};
+				};
+			};
+			buildConfigurationList = FB912361245A3B1E00E6AB1F /* Build configuration list for PBXProject "PetFeederApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB91235D245A3B1E00E6AB1F;
+			productRefGroup = FB912367245A3B1E00E6AB1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB912365245A3B1E00E6AB1F /* PetFeederApp */,
+				FB91237B245A3B1F00E6AB1F /* PetFeederAppTests */,
+				FB912386245A3B1F00E6AB1F /* PetFeederAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB912364245A3B1E00E6AB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB912376245A3B1F00E6AB1F /* LaunchScreen.storyboard in Resources */,
+				FB912373245A3B1F00E6AB1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91237A245A3B1F00E6AB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB912385245A3B1F00E6AB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB912362245A3B1E00E6AB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD63E92245CCB29005D49E6 /* AddFeederPopup.swift in Sources */,
+				FBD43719245E160E000C42F8 /* AddFeedTimePopup.swift in Sources */,
+				FB91236E245A3B1E00E6AB1F /* MainViewController.swift in Sources */,
+				FB91236A245A3B1E00E6AB1F /* AppDelegate.swift in Sources */,
+				FBD4371D245E23A4000C42F8 /* FeederFunctions.swift in Sources */,
+				FBD4371B245E1617000C42F8 /* EditFeedTimePopup.swift in Sources */,
+				FB91239A245A3DDE00E6AB1F /* Feeder.swift in Sources */,
+				FB91236C245A3B1E00E6AB1F /* SceneDelegate.swift in Sources */,
+				FB54B622245B90C80025773E /* FeederCell.swift in Sources */,
+				FB54B61A245A751F0025773E /* MainFunctions.swift in Sources */,
+				FB54B618245A5F320025773E /* LoginController.swift in Sources */,
+				FB54B61C245B8BFC0025773E /* User.swift in Sources */,
+				FB5832A6245BE18C0030EF0D /* FeedTimeCell.swift in Sources */,
+				FB54B61E245B8C830025773E /* Role.swift in Sources */,
+				FB54B620245B8F5F0025773E /* Color.swift in Sources */,
+				FB5832A4245BE1160030EF0D /* FeederViewController.swift in Sources */,
+				FBD4371F245E6C29000C42F8 /* TimeFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB912378245A3B1F00E6AB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB912381245A3B1F00E6AB1F /* PetFeederAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB912383245A3B1F00E6AB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91238C245A3B1F00E6AB1F /* PetFeederAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB91237E245A3B1F00E6AB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB912365245A3B1E00E6AB1F /* PetFeederApp */;
+			targetProxy = FB91237D245A3B1F00E6AB1F /* PBXContainerItemProxy */;
+		};
+		FB912389245A3B1F00E6AB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB912365245A3B1E00E6AB1F /* PetFeederApp */;
+			targetProxy = FB912388245A3B1F00E6AB1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB912374245A3B1F00E6AB1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB912375245A3B1F00E6AB1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB91238E245A3B1F00E6AB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB91238F245A3B1F00E6AB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB912391245A3B1F00E6AB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFVHHGUVPU;
+				INFOPLIST_FILE = PetFeederApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jonathanfletcher.PetFeederApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB912392245A3B1F00E6AB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFVHHGUVPU;
+				INFOPLIST_FILE = PetFeederApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jonathanfletcher.PetFeederApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FB912394245A3B1F00E6AB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFVHHGUVPU;
+				INFOPLIST_FILE = PetFeederAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jonathanfletcher.PetFeederAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetFeederApp.app/PetFeederApp";
+			};
+			name = Debug;
+		};
+		FB912395245A3B1F00E6AB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFVHHGUVPU;
+				INFOPLIST_FILE = PetFeederAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jonathanfletcher.PetFeederAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetFeederApp.app/PetFeederApp";
+			};
+			name = Release;
+		};
+		FB912397245A3B1F00E6AB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFVHHGUVPU;
+				INFOPLIST_FILE = PetFeederAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jonathanfletcher.PetFeederAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetFeederApp;
+			};
+			name = Debug;
+		};
+		FB912398245A3B1F00E6AB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFVHHGUVPU;
+				INFOPLIST_FILE = PetFeederAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jonathanfletcher.PetFeederAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetFeederApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB912361245A3B1E00E6AB1F /* Build configuration list for PBXProject "PetFeederApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91238E245A3B1F00E6AB1F /* Debug */,
+				FB91238F245A3B1F00E6AB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB912390245A3B1F00E6AB1F /* Build configuration list for PBXNativeTarget "PetFeederApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB912391245A3B1F00E6AB1F /* Debug */,
+				FB912392245A3B1F00E6AB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB912393245A3B1F00E6AB1F /* Build configuration list for PBXNativeTarget "PetFeederAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB912394245A3B1F00E6AB1F /* Debug */,
+				FB912395245A3B1F00E6AB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB912396245A3B1F00E6AB1F /* Build configuration list for PBXNativeTarget "PetFeederAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB912397245A3B1F00E6AB1F /* Debug */,
+				FB912398245A3B1F00E6AB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB91235E245A3B1E00E6AB1F /* Project object */;
+}
