@@ -18,9 +18,9 @@
 // WiFi Parameters
 const char* ssid = "SSID";
 const char* password = "Password";
-const char* deviceId = "ec0046dc-001b-48bf-057f-08d7ef9b3acb";
+const char* deviceId = "Unique Device ID";
 const char* siteAddress = "https://iotpetfeederdatamanager.azurewebsites.net/";
-const char* bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Impvbm55LmZsZXRjaGVyQGljbG91ZC5jb20iLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE1ODgxOTc2NTUsImV4cCI6MTYwNDAwODg1NSwiaWF0IjoxNTg4MTk3NjU1fQ.W08Q_1LQxwm-VidQuTr63lovp5Jeub97oUdSmvlEk-U"; // must add token
+const char* bearerToken = "";
 
 // JSON
 String jsonPayload = "";
