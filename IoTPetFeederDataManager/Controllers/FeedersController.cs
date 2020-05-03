@@ -36,10 +36,10 @@ namespace IoTPetFeederDataManager.Controllers
 
         [Authorize(Roles = "Admin,StandardUser,Feeder")]
         [HttpGet("{id}")]
-        public async Task<ActionResult<Feeder>> GetFeeder(string id)
+        public async Task<ActionResult<Feeder>> GetFeeder(Guid id)
         {
             var feeder = await _context.Feeders
-                .Where(f => f.FeederId == id)
+                .Where(f => f.Id == id)
                 .FirstOrDefaultAsync();
 
             if (feeder == null)

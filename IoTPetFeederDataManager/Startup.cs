@@ -36,7 +36,7 @@ namespace IoTPetFeederDataManager
             // Setup database context
             services
                 .AddDbContext<IoTPetFeederDbContext>(options => options
-                .UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+                .UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             // Setup JWT settings
             var jwtSection = Configuration.GetSection("JwtSettings");
