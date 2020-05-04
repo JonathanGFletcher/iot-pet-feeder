@@ -16,9 +16,9 @@
 //feedTimes (string)
 
 // WiFi Parameters
-const char* ssid = "SSID";
-const char* password = "Password";
-const char* deviceId = "Unique Device ID";
+const char* ssid = "";
+const char* password = "";
+const char* deviceId = "";
 const char* siteAddress = "https://iotpetfeederdatamanager.azurewebsites.net/";
 const char* bearerToken = "";
 
@@ -54,7 +54,6 @@ MFRC522 mfrc522 (SS_PIN, RST_PIN);    //create instance for mfrc522
 Servo myServo;                      //define servo name
 
 // Pins
-int servoPin = 99;
 
 //-----------------------------------------------------------------------------------
 //    Setup
@@ -137,11 +136,6 @@ void loop() {
       }
     }
   }
-
-  // ***Needs Work*** Here you need to put the code for RFID detection which will then
-  //                  trigger the releaseFeed() (if readyToFeed == true)
-  //                  Also once the feed is release here you must set readyToFeed to false
-  //                  and also do feedCount++ (increment by 1) and call updateAPI()
 
   //look for new cards
   if (! mfrc522.PICC_IsNewCardPresent()) {
@@ -347,7 +341,6 @@ void releaseFeed() {
   int releasePeriod = 10000;
   unsigned long releaseTimeNow = 0;
 
-  // ***Needs Work*** This function will activate the servo
   myServo.write(180);           //rotates 180 degrees
 
   while (millis() <= timeNow + releaseTimeNow + releasePeriod) {}
