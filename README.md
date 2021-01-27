@@ -16,7 +16,7 @@ The backend for the project was written in C#.
 This API would handle all data coming from the iOS application and the pet feeder device.
 The API would keep track of all user set schedules and manual feeds, aswell as feeders and user accounts.
 An authentication and authorization system was implemented through JSON web tokens to keep the backend secure.
-The backend was deployed to Azure so it could be demonstrated to the class within the presentation.
+The backend was deployed to Azure so it could be demonstrated to the class during the presentation.
 
 ## Pet Feeder Device
 
