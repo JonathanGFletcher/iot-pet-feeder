@@ -32,6 +32,6 @@ https://www.youtube.com/watch?v=q3t9_RaxsX0
 
 ## Credits
 
-1. Jonathan Fletcher: Developed iOS application, developed API and helped develop feeder device code.
-2. Tram Nguyen: Helped develop feeder device code.
-3. Justin Luong: Designed pet feeder device and mechanisms.
+- Jonathan Fletcher: Developed iOS application, developed API and helped develop feeder device code.
+- Tram Nguyen: Helped develop feeder device code.
+- Justin Luong: Designed pet feeder device and mechanisms.
