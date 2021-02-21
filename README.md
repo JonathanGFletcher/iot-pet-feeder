@@ -1,6 +1,6 @@
 # IoT Pet Feeder
 
-This is a project created for a class called IoT. It is a simple automatic pet feeding device that connects to an application on your mobile device through a custom API. 
+This is a project created for an IoT class. It is a simple automatic pet feeding device that connects to an application on your mobile device through a custom API. 
 The mobile application was written in Swift for iOS, the API was written in C#/.NET Core, and the pet feeder device was written in C++ using the Arduino IDE. 
 The pet feeding device is controlled by an ESP32.
 
